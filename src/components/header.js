@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
       </Link>
       <Link style={linkStyle} to="#experience">
           Experience
-        </Link>  
+      </Link>  
       <Link style={linkStyle} to="#projects">
           Projects
         </Link>
