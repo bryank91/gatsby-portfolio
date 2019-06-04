@@ -31,18 +31,17 @@ export default function SimpleCard() {
     <Card className={classes.card}>
       <CardContent>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
-         Hotcopper
+         Ernst and Young
         </Typography>
-        <Typography variant="h6">Junior Software Developer</Typography>
-        <Typography className={classes.pos} color="textSecondary">
-          PHP {bull} Xenforo CMS 
-        </Typography>
+        <Typography variant="h6">Trainee Auditor</Typography>
         <Typography variant="body2" component="p">
-          {bull} Gathered requirements and statistics on user feedback in the existing website and compiled an development roadmap on what task should be prioritise
-          <br />{bull}  Bug testing across different platforms: Performed UI test and automation checks on VM (Windows and Unix) and mobiles emulators (Symbian, Android, Blackberry, iOS) 
-          <br />{bull} Maintained the core functionality in the website through the use of the Xenforo CMS whilst performing markup language touch ups. Helped in developing small add-ons for the website such as counters for views and online users 
-          <br />{bull} Moderated the stock discussion forums such as determining toxic users and also providing technical support to users of the website. 
-          <br />{bull} Assisted in ensuring a smooth migration of data from different software architectures. 
+          {bull} Vouching and Casting: Aided in vouching documents regarding inventory, payables, client accounts and other statements. Proofread calculations and measures through client’s spreadsheet report to ensure correctness and credibility.
+          <br />{bull} Stocktakes: Accomplished several stocktakes of the company’s assets and inventory. This involves designing stocktakes that encompasses majority of the stock depending on their business model and executing it.
+          <br />{bull} Filing and documentation: Assisted in filing documents for future references and writing reports on audit approaches in that specific company for other auditor’s convenience.
+          <br />{bull} Control Testing: Executed several types of control testing procedures on companies cash flow, journal management, accounts payable and receivable functions
+          <br />{bull} Bank Reconciliations and Confirmations: Helped in addressing issues between company’s bank statements and its own accounting records.
+          <br />{bull} SAP: Used SAP to make simple queries and inputting records into the database as part of our testing procedures.
+          <br />{bull} Excel Knowledge: Aided in inspecting accounts by making counter-checks between account payables/receivables and documents of the company and creating audit accounts through the use of Excel
         </Typography>
       </CardContent>
       {/* <CardActions>
