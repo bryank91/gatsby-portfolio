@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -11,7 +10,7 @@ import KhoodesignsCard from "../components/cardKhoodesigns"
 import EYCard from "../components/cardEY"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout id='main-content'>
     <SEO title="Home" />
     <h1 id="about">About</h1>
     <p>Experienced full-stack software and mobile engineer. Believer in Agile methodology and all things Cloud.</p>

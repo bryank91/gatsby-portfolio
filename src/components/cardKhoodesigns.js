@@ -1,10 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import '../pages/main.css';
 
 const useStyles = makeStyles({
   card: {
@@ -30,12 +29,15 @@ export default function SimpleCard() {
   return (
     <Card className={classes.card}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-         KhooDesigns
-        </Typography>
+        <div className={classes.title}>
+          <Typography color="textSecondary" gutterBottom>
+          KhooDesigns
+          </Typography>
+          <Typography color="textSecondary" gutterBottom className="date-right"> May 2016 - November 2018 </Typography>
+        </div>
         <Typography variant="h6">Web Developer</Typography>
         <Typography className={classes.pos} color="textSecondary">
-          {bull} Domain Management {bull} Web Hosting {bull} Wordpress {bull} PHP 
+          Domain Management {bull} Web Hosting {bull} Wordpress {bull} PHP 
         </Typography>
         <Typography variant="body2" component="p">
           {bull} Provide services for Web Hosting and Domain Management. Specialise in Wordpress Sites.

@@ -1,10 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import '../pages/main.css';
 
 const useStyles = makeStyles({
   card: {
@@ -30,16 +29,19 @@ export default function SimpleCard() {
   return (
     <Card className={classes.card}>
       <CardContent>
-        <Typography className={classes.title} color="textSecondary" gutterBottom>
-         Hotcopper
-        </Typography>
+        <div className={classes.title} >
+          <Typography color="textSecondary" gutterBottom>
+          Hotcopper
+          </Typography>
+          <Typography color="textSecondary" gutterBottom className="date-right">May 2014 - September 2014 </Typography>
+        </div>
         <Typography variant="h6">Junior Software Developer</Typography>
         <Typography className={classes.pos} color="textSecondary">
           PHP {bull} Xenforo CMS 
         </Typography>
         <Typography variant="body2" component="p">
           {bull} Gathered requirements and statistics on user feedback in the existing website and compiled an development roadmap on what task should be prioritise
-          <br />{bull}  Bug testing across different platforms: Performed UI test and automation checks on VM (Windows and Unix) and mobiles emulators (Symbian, Android, Blackberry, iOS) 
+          <br />{bull} Bug testing across different platforms: Performed UI test and automation checks on VM (Windows and Unix) and mobiles emulators (Symbian, Android, Blackberry, iOS) 
           <br />{bull} Maintained the core functionality in the website through the use of the Xenforo CMS whilst performing markup language touch ups. Helped in developing small add-ons for the website such as counters for views and online users 
           <br />{bull} Moderated the stock discussion forums such as determining toxic users and also providing technical support to users of the website. 
           <br />{bull} Assisted in ensuring a smooth migration of data from different software architectures. 

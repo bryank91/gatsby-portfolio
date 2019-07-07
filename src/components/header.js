@@ -1,12 +1,10 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
+  <header id='header'
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.25rem`,
+      background: `darkGrey`
     }}
   >
     <div
@@ -16,36 +14,47 @@ const Header = ({ siteTitle }) => (
         padding: `10px 0px 2px 20px`
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link style={linkStyle}
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+      <h1 style={{ margin: 0, marginBottom: '5px' }}>
+        <a style={linkStyle}
+          href="/"
         >
           {siteTitle}
-        </Link>
+        </a>
+        <div style={smallLinkStyle}>
+          <a style={linkStyle} href="#about">
+            About
+          </a>
+          <a style={linkStyle} href="#experience">
+            Experience
+          </a>  
+          <a style={linkStyleEnd} href="#projects">
+            Projects
+          </a>   
+        </div>     
       </h1>
-      <h4>
-      <Link style={linkStyle} to="#about">
-          About
-      </Link>
-      <Link style={linkStyle} to="#experience">
-          Experience
-      </Link>  
-      <Link style={linkStyle} to="#projects">
-          Projects
-        </Link>
-      </h4>
     </div>
   </header>
 )
 
 const linkStyle = {
+  marginRight: '40px',
+  color: 'white',
+  textDecoration: 'none'
+};
+
+const linkStyleEnd = {
   marginRight: '20px',
   color: 'white',
   textDecoration: 'none'
+};
+
+const smallLinkStyle = {
+  margin: '0px',
+  fontSize: '20px',
+  float: 'right',
+  width: '50%',
+  textAlign: 'right',
+  paddingTop: '9px'
 };
 
 Header.propTypes = {
