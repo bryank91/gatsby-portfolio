@@ -4,7 +4,7 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header id='header'
     style={{
-      background: `darkGrey`
+      background: `black`
     }}
   >
     <div
@@ -27,8 +27,8 @@ const Header = ({ siteTitle }) => (
           <a style={linkStyle} href="#experience">
             Experience
           </a>  
-          <a style={linkStyleEnd} href="#projects">
-            Projects
+          <a style={linkStyleEnd} href="#skills">
+            Skills
           </a>   
         </div>     
       </h1>

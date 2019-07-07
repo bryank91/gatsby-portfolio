@@ -8,6 +8,7 @@ import JacksCard from "../components/cardJacks"
 import HotcopperCard from "../components/cardHotcopper"
 import KhoodesignsCard from "../components/cardKhoodesigns"
 import EYCard from "../components/cardEY"
+import Projects from "../components/skills"
 
 const IndexPage = () => (
   <Layout id='main-content'>
@@ -25,12 +26,8 @@ const IndexPage = () => (
     <HotcopperCard />
     <br />
     <EYCard />
-    <br />         
-    <h1 id="projects">Projects</h1>
-    <p>Under Construction</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>              
+    <br />
+    <Projects />                    
   </Layout>
 )
 

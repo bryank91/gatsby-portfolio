@@ -37,10 +37,14 @@ export default function SimpleCard() {
         <Typography className={classes.pos} color="textSecondary">
           Perl {bull} Javascript {bull} PHP {bull} Python {bull} MySQL {bull} AWS 
         </Typography>
+        <Typography variant="body2">
+          Domain is Australia’s top Real Estate marketing platform hosting hundreds of thousands of homes all over Australia
+        </Typography>
+        <br />
         <Typography variant="body2" component="p">
-          {bull} Developing and maintaining existing functionality and technologies for Australian, New Zealand and Indonesian offices including franchises such as Ray White, Raine & Horne, etc
+          {bull} Responsible for maintaining MyDesktop used including franchises such as Ray White, Raine & Horne in Australia, New Zealand and Indonesia.
           <br />{bull} Creating daily custom reports and constructing intricate MYSQL database with millions of contacts, properties and transactions
-          <br />{bull} Maintaining XML feed servers and MyDesktop API using SOAP and REST architecture. Integrating with other API/Feed providers such as Homepass, Reiwa, Realestate, Domain, etc
+          <br />{bull} Maintaining XML feed servers and MyDesktop API using SOAP and RESTful architecture. Integrating with other API/Feed providers such as Homepass, Reiwa, Realestate, etc
           <br />{bull} Experience in working under the Agile methodology through weekly deliverables
           <br />{bull} Knowledge in utilising EC2, S3, SQS, Elastic Search, etc with Amazon Web Services
           <br />{bull} Create and maintaining JSON, XML, CSV data parsers and collection
