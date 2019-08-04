@@ -27,9 +27,12 @@ const Header = ({ siteTitle }) => (
           <a style={linkStyle} href="#experience">
             Experience
           </a>  
-          <a style={linkStyleEnd} href="#skills">
+          {/* <a style={linkStyle} href="#skills">
             Skills
-          </a>   
+          </a> */}
+          <a style={linkStyleEnd} href="#education">
+            Education
+          </a>               
         </div>     
       </h1>
     </div>

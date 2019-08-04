@@ -40,6 +40,16 @@ export default function SimpleCard() {
         <Typography variant="body2" component="p">
           Jack’s is a software company that provides consulting, software, and application development services.         
         </Typography>
+        <br />
+        <Typography variant="body2" component="p">
+          {bull} Help developed multiple successful software MVP and rescued offshore projects specialising in Navigational Data, Property, Media and F&B
+          <br />{bull} Managed different Azure and AWS Cloud architectures and infrastructures (EC2, EB, RDS, Cloudfront, S3, VPC, IAM, VM, App Services, Blob Storages)
+          <br />{bull} Worked with Restful APIs, GIS Data, SQL Servers, Git, Shell Scripting and Linux Operating Systems
+          <br />{bull} Worked with MVC frameworks such as Laravel in PHP
+          <br />{bull} Experience front end technologies such as Vue.JS, React, SCSS, CSS, NPM, JavaScript, HTML
+          <br />{bull} Help designed timelines, client quotes, wireframes, sprint deliverables, requirements, documentation with technical teams and clients
+          <br />{bull} Lead teams remotely in Indonesia through Slack, Jira, weekly sprints, daily stand-ups under the Agile Methodology
+        </Typography>        
       </CardContent>
       {/* <CardActions>
         <Button size="small">Learn More</Button>

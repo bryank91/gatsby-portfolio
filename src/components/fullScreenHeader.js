@@ -15,8 +15,8 @@ const fullScreenHeader = () => (
         backgroundImage: `url('paper_spectrum.jpg')`,
       }}
     >
-      <h1 style={{ margin: 0, marginBottom: '5px', color: 'white', paddingTop: '50vh', paddingLeft: '33vw' }}>
-        This is my portfolio
+      <h1 style={{ margin: 0, marginBottom: '5px', color: 'white', paddingTop: '50vh', textAlign: 'center'}}>
+        Full Stack Developer for Web, Cloud and Emerging Technologies
       </h1>
     </div>
   </header>

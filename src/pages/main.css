@@ -3,3 +3,23 @@
     font-size: 20px;
     padding-top: 7px;
 }
+
+.skill-card {
+    max-width: 200px;
+    min-height: 500px;
+    margin-right: 2px;
+}
+
+.skill-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.education-card {
+    min-width: 275;
+}
+
+.education-card-title {
+    font-size: 30;
+}

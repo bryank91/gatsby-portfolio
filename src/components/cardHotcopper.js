@@ -39,6 +39,8 @@ export default function SimpleCard() {
         <Typography className={classes.pos} color="textSecondary">
           PHP {bull} Xenforo CMS 
         </Typography>
+        <Typography variant="body2">HotCopper is the largest stock market forum in Australia with over hundreds of thousand registered members and more than a few thousand new posts each day.</Typography>
+        <br />
         <Typography variant="body2" component="p">
           {bull} Gathered requirements and statistics on user feedback in the existing website and compiled an development roadmap on what task should be prioritise
           <br />{bull} Bug testing across different platforms: Performed UI test and automation checks on VM (Windows and Unix) and mobiles emulators (Symbian, Android, Blackberry, iOS) 
