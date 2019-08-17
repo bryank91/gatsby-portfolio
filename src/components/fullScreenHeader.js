@@ -12,7 +12,7 @@ const fullScreenHeader = () => (
       style={{
         margin: `0 auto`,
         height: `100vh`,
-        backgroundImage: `url('paper_spectrum.jpg')`,
+        backgroundImage: `url('images/paper_spectrum.jpg')`,
       }}
     >
       <h1 style={{ margin: 0, marginBottom: '5px', color: 'white', paddingTop: '50vh', textAlign: 'center'}}>
